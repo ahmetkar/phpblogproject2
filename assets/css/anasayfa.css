@@ -1,0 +1,154 @@
+
+a {
+  color:black;
+}
+a:hover {
+  color:gray;
+  text-decoration: none;
+}
+
+
+.sagh {padding:0px;}
+.saghaber {height:140px;border:1px solid lightgray;}
+.usteleman {height:150px;border:1px solid lightgray;}
+.ihaber {height:200px;border:1px solid lightgray;
+  border-radius:2%;
+margin-top:8px;
+padding:0;
+}
+
+.icerik1 {padding:0;padding-left:20px;}
+.icerik2{padding:0;padding-left:20px;}
+.althbr {padding:3px;}
+#imgkutu {width:100%;height:100%;}
+#sresim {width:100%;height:100%;}
+
+.sonhaber {
+  margin-top:7px;
+  padding: 0;
+}
+
+
+ul#katagori li{float:left;}
+
+p#saciklama {
+  color:gray;
+  font-family: Verdana;
+}
+
+#sdetay {
+  margin-top:-10px;
+  margin-left:5px;
+}
+
+
+
+
+h3#sgbaslik {
+  font-family:Arial;
+  z-index:3;
+  margin-top:-50px;
+  padding-top:15px;
+  background-image: linear-gradient(to bottom, transparent 0px, lightgray 100%);
+background-repeat: repeat-x;
+  width:100%;
+  height:50px;
+  color:white;
+  position:absolute;
+  text-shadow: 3px 2px 1px gray;
+  transition:background-image 1s
+}
+h3#sgbaslik:hover {
+    background-image: linear-gradient(to bottom, transparent 0px, white 100%);
+background-repeat: repeat-x;
+}
+
+#hbrresim {
+width:100%;
+height:100%;
+}
+
+p#daciklama {
+  font-family: Verdana;
+  font-size:13px;
+  color:white;
+}
+
+#detay {
+  margin-top:-86px;
+  z-index:3;
+  width:100%;
+  position: absolute;
+    background-image: linear-gradient(to bottom, transparent 0px, black 100%);
+background-repeat: repeat-x;
+}
+
+#detay:hover {
+  background-image: linear-gradient(to bottom, transparent 0px, white 100%);
+background-repeat: repeat-x;
+color:black;
+}
+
+#detay a {color:white;}
+
+.saghaber {padding:0;border:1px solid transparent;}
+
+#galeri {
+  margin-top:5px;
+  padding:0;
+}
+
+#galeri2 {
+  margin-top:5px;
+  padding:0;
+}
+
+#fteleman {
+  width:100%;
+  height:100%;
+}
+
+#vdeleman {
+  width:100%;
+  height:100%;
+}
+
+#kaplama {
+  width:95%;
+  height:100%;
+  z-index: 5;
+  position: absolute;
+   background-image: linear-gradient(to bottom, transparent 0px, black 100%);
+background-repeat: repeat-x;
+}
+
+#gorunenicon {
+  font-size:35px;margin-top:15%;margin-left:32%;
+}
+
+#gsol {
+font-size:35px;
+margin-top:25px;
+position: absolute;
+z-index:6;
+}
+#gsag {
+font-size:35px;
+margin-top:25px;
+position: absolute;
+z-index:6;
+margin-left:-50px;
+}
+#gsol2 {
+font-size:35px;
+margin-top:25px;
+position: absolute;
+z-index:6;
+}
+#gsag2 {
+font-size:35px;
+margin-top:25px;
+position: absolute;
+z-index:6;
+margin-left:-50px;
+}

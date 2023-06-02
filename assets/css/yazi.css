@@ -1,0 +1,109 @@
+
+a {
+  color:black;
+}
+a:hover {
+  color:gray;
+  text-decoration: none;
+}
+.eklepencere {
+	width:600px;
+	height:400px;
+	padding:50px;
+	background: white;
+	border:1px solid lightgray;
+}
+
+span#kapat {
+	position: absolute;
+	float:right;
+	color:black;
+}
+
+#haberresim {
+	 float:left;
+	 height:230px;
+}
+
+.kl {
+	margin-left:-15px;
+	width:103.2%;
+}
+
+.sg {
+	margin-left:-15px;
+	width:110.2%;
+}
+
+p#aciklama {
+	margin-top:-2%;
+	font-family: sans-serif;
+	color:gray;
+	font-size:18px;
+	margin-left:-10px;
+}
+p#metin {
+	margin-left:20px;
+}
+
+.ust {
+	margin-top:-10px;
+	margin-left:-25px;
+}
+
+.genislet {
+	width:102%;
+}
+
+.gns {
+	margin-left:-15px;
+	width:106.6%;
+}
+
+.blur img {filter:alpha(opacity=100); -moz-opacity:1.0; opacity:1.0; border:0;}
+.blur:hover img {filter:alpha(opacity=30); -moz-opacity:0.3; opacity:0.3;border:0;}
+
+input#yorumyap {
+	margin-top:10px;
+	float:right;
+}
+
+#bnbox {
+	width:105%;
+	height:100%;
+}
+
+h3#bnbaslik {
+	font-family:Arial;
+	z-index:3;
+	margin-top:-70px;
+	padding-top:15px;
+	background-image: linear-gradient(to bottom, transparent 0px, lightgray 100%);
+background-repeat: repeat-x;
+	width:91%;
+	height:70px;
+	color:white;
+	position:absolute;
+	text-shadow: 3px 2px 1px gray;
+	transition:background-image 1s
+}
+
+h3#bnbaslik:hover {
+transition:background-image 3s;
+background-image: linear-gradient(to bottom, transparent 0px, white 100%);
+background-repeat: repeat-x;	
+}
+
+.yorum {
+	height:auto;
+	min-height:70px;
+	max-height:200px;
+	box-shadow: 3px 2px 1px #ccc;
+	padding:0;
+}
+#yorum  {
+	font-size:13px;
+	font-family: sans-serif;
+	color:gray;
+	font-weight: bolder;
+}

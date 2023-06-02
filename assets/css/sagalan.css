@@ -1,0 +1,47 @@
+/*Genel sağ*/
+.sagalan {
+
+}
+
+/*Sag içerik*/
+.saghaber1 {
+	padding:0;
+	height:105px;
+}
+.saghaber2 {
+	padding:0;
+	height:105px;
+}
+#sagdetay {height:100%;}
+#saghresim {
+	float:left;
+	width:37%;
+	height:99%;
+	margin-right:5px;
+}
+h4#saghb {
+
+}
+p#saciklama {
+font-size:12px;
+}
+span#zaman {
+	font-size:11px;
+	color:gray;
+}
+
+span#sayi {
+	font-size:25px;
+	color:black;
+	text-shadow:4px 2px 1px #ccc;
+}
+
+
+ul#haberg li {
+margin-left:-25px;
+}
+
+h4#habergoster {
+	color:gray;
+}
+
